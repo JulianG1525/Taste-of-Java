@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header, footer {
+  padding: 20px;
+  background-color: #f0f0f0;
+  transition: background-color .5s, color .5s;
+}
+
+main {
+  padding: 20px;
+  transition: background-color .5s, color .5s;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Dark mode Styles */
+
+body.dark-mode header, body.dark-mode footer {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode main {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
