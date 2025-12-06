@@ -17,3 +17,9 @@ function toggleDark() {
     console.log("toggleDark called");
     document.body.classList.toggle("dark-mode");
 }
+
+function wackyEffects(){
+    console.log("worked")
+    document.getElementById("instructions").classList.toggle("flipped")
+    document.getElementById("pageTitle").innerHTML = "Something Wacky happened"
+}
